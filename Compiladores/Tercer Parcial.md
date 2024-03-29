@@ -28,6 +28,10 @@ Cada instrucción tiene un número de 0 a 255 seguido de parámetros
 Los parámetros son registros o direcciones de memoria  
 Puede verse como código intermedio
 
+![3097025e8353eb6c4993028db4dc168a.png](../_resources/3097025e8353eb6c4993028db4dc168a.png)
+
+![2aaac3f011612364aa47c3e08b0b77f2.png](../_resources/2aaac3f011612364aa47c3e08b0b77f2.png)
+
 &nbsp;![b0837674d65d65e10993aa3c8a0a2c15.png](../_resources/b0837674d65d65e10993aa3c8a0a2c15.png)
 
 ![2f73ffbbb93ce3d1dd7fcf5eb4d30f5d.png](../_resources/2f73ffbbb93ce3d1dd7fcf5eb4d30f5d.png)
@@ -41,7 +45,7 @@ Puede verse como código intermedio
 \-Las gramáticas LR describen **más** lenguajes que las gramáticas LL
 
 Un analizador sintáctico LR realiza las decisiones de desplazamiento-reducción mediante el mantenimiento de estados, para llevar el registro de la ubicación que tenemos en un análisis sintáctico.  
-Los estados representan conjuntos de **“elementos”.** 
+Los estados representan conjuntos de **“elementos”.**
 
 &nbsp;
 
