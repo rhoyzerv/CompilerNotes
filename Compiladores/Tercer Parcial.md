@@ -17,9 +17,9 @@ Una regla semántica debe producir siempre el mismo resultado para cada cadena d
 \-Unicidad  
 \-Variables, casos  
 \-Nombres  
-\-En cierre de ciclos 
+\-En cierre de ciclos
 
-**Bytecodes** 
+**Bytecodes**
 
 Opcode es el ensamblador de una máquina virtual  
 Evita la dependencia de un Hardware específico  
@@ -31,6 +31,17 @@ Puede verse como código intermedio
 &nbsp;![b0837674d65d65e10993aa3c8a0a2c15.png](../_resources/b0837674d65d65e10993aa3c8a0a2c15.png)
 
 ![2f73ffbbb93ce3d1dd7fcf5eb4d30f5d.png](../_resources/2f73ffbbb93ce3d1dd7fcf5eb4d30f5d.png)
+
+**Analizador sintáctico LR**
+
+\-Es un método general muy conocido que es igual de **eficiente** que otros métodos de desplazamiento / reducción
+
+\-Un analizador LR encuentra el **primero error de la izquierda de la cadena**
+
+\-Las gramáticas LR describen **más** lenguajes que las gramáticas LL
+
+Un analizador sintáctico LR realiza las decisiones de desplazamiento-reducción mediante el mantenimiento de estados, para llevar el registro de la ubicación que tenemos en un análisis sintáctico.  
+Los estados representan conjuntos de **“elementos”.** 
 
 &nbsp;
 
